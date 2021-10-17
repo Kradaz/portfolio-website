@@ -9,7 +9,6 @@
 	--buttontextblack: #2b2b2b;
 	--spanweb: #FF4500;
 	--gridcolor: lightgreen;
-	--fontweight: 700px;
 }
 
 * {
@@ -29,7 +28,7 @@ body {
 
 	}
 header {
-		font-weight: var(--fontweight);
+		font-weight:700;
 		font-size: 16px;
 
 	}
