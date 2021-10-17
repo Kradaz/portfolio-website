@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"> 
+		<title> Contact me</title>
+		<link rel="shortcut icon" href="./img/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.production.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	</head>
+
+	<body>
+
+		<header class="page-header">
+		<!-- HEADER -->
+		<img src="img/logo.svg" alt="logo" class="page-header__item"> 
+		<nav class="main-navigation page-header__item">
+			<ul role="menubar" class="navigation-list">
+				<li role="presentation">
+					<a href="index.html" role="menuitem" target="_blank" class="navigation-list__item">Home</a>
+				</li>
+				<li role="presentation">
+					<a href="about.html" role="menuitem" target="_blank" class="navigation-list__item">About me</a>
+				</li>
+				<li role="presentation">
+					<a href="contact.html" role="menuitem" target="_blank" class="navigation-list__item navigation-list__item--active">Contact</a>
+				</li>
+				<li role="presentation">
+					<a href="work.html" role="menuitem" target="_blank" class="navigation-list__item">Work</a>
+				</li>
+			</ul>
+		</nav>
+
+	</header>                                                  
+
+	<main align="center">
+			CareerFoundry UK<br>
+			Silver Str. 120<br>
+			49238 London<br>
+			United Kingdom<br>
+			<br>
+			Mobile:<a href="tel:+447710576257"> +447710576257</a><br>
+			Skype:<a href="skype:hola.careerfoundry"> hola.careerfoundry</a><br> <!-- skype attribute inside link to open up skype -->
+			Email:<a href="mailto:adarshsaulick@hotmail.it"> adarshsaulick@hotmail.it</a> <!-- mailto attribute link to open up mail -->
+	</main>
+
+	<!-- FORM -->
+	<form align="center" action ="" method="post" id="contact-form">
+
+
+		<label class="standard-label" for="contact-tel">Tel:</label>
+				<input type="tel" id="contact-tel" required>
+
+		<label class="standard-label" for="contact-email">Email:</label>
+				<input type="email" id="contact-email" required>
+
+
+		<label class="standard-label" for="contact-message">Message:</label>
+				<textarea required maxlength="180" id="contact-message"></textarea>
+
+		<input type="submit" value="Submit">
+
+	</form>
+
+	<footer class="page-footer">
+
+		<p>Follow me on</p>
+
+		<div class="social-media">
+			<a href="https://github.com/" target="_blank"><img src="img/github_icon.svg" alt="Github"></a>
+			<a href="https://twitter.com/?lang=en-gb" target="_blank"><img src="img/twitter_icon.svg" alt="Twitter"></a>
+			<a href="https://www.linkedin.com/feed/" target="_blank"><img src="img/linkedin_icon.svg" alt="LinkedIn"></a>
+		</div>
+
+	</footer>
+
+
+
+
+	<script src="js/tota11y.min.js"></script>	
+	</body>
+
+</html>
